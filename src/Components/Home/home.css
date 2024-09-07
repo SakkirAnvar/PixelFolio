@@ -1,0 +1,57 @@
+.banner {
+  position: relative;
+  text-align: center;
+  height: 86.9vh; /* Full viewport height */
+  background-image: url('../../../public/Images/landingPage.jpg');
+  background-size: cover; 
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black for contrast */
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+}
+
+.t-cell {
+  display: inline-block;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensures vertical and horizontal centering */
+}
+
+.sentence {
+  position: relative;
+  width: 500px;
+}
+
+.line-wrap {
+  text-align: center;
+  font-size: 4rem; /* Larger text for visibility */
+  font-weight: lighter;
+  color: white; /* Text color for contrast */
+  position: relative;
+}
+
+.swipe-animation {
+  position: absolute;
+  height: 100%; /* Ensures full vertical coverage */
+  /* background-color: blue;  */
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensure it's behind the text */
+}

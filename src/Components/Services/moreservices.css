@@ -1,0 +1,43 @@
+/* You can add these styles to your existing CSS file or use a CSS-in-JS solution like styled-components */
+
+.more-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4rem;
+  }
+  
+  .more-sec1 {
+    width: 50%;
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  .more-para {
+    font-size: 1.5rem;
+    font-weight: bold; /* Adjust as needed */
+  }
+  
+  .more-h2 {
+    font-size: 3.7rem; /* Adjust as needed */
+    font-weight: bolder;
+    margin: 10px 0px;
+  }
+
+  .more-span {
+    color: #2e3192;
+  }
+  
+  .more-sec2 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .more-sec2 p{
+    font-weight: 600;
+  }
+
+ 

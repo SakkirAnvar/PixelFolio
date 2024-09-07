@@ -1,0 +1,98 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffff; /* Background color for the navbar */
+    box-shadow: 0px 0px 2px rgba(99, 98, 98, 0.3); /* Add a box shadow */
+    
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust the size of the logo image */
+  }
+  
+  .nav_links {
+    flex-grow: 1; /* Allow this section to grow to fill space */
+    text-align: center; /* Center the navigation links */
+  }
+  
+  .nav_list {
+    list-style: none; /* Remove list bullets */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    display: flex; /* Horizontal alignment */
+    justify-content: center; /* Center the links */
+    gap: 20px; /* Space between list items */
+  }
+  
+  .nav_list li {
+    display: inline-block; /* Keep list items inline */
+  }
+  
+  .nav_list a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Dark color for links */
+    position: relative;
+    font-size: 18px; /* Font size for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+
+  .nav_list a::after {
+    content: ""; /* No text, just a visual line */
+    position: absolute; /* Positioned relative to the link */
+    bottom: -5px; /* Adjust the gap between the link and underline */
+    left: 0;
+    height: 2px; /* Thickness of the underline */
+    width: 0; /* Initially hidden */
+    background-color: #2e3192; /* Color of the underline */
+    transition: width 0.3s ease; /* Smooth transition for showing underline */
+  }
+  
+  .nav_list a:hover::after {
+    width: 100%; /* Underline spans the full width of the link on hover */
+  }
+
+  .nav_btn {
+    margin-left: auto; /* Align to the far right */
+  }
+  
+  .nav_btn a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text */
+    background-color:#2e3192; /* Button color */
+    padding: 8px 20px; /* Padding for the button */
+    border: 1px solid #2e3192;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .nav_btn a:hover {
+    background-color: #fff ;/* Change color on hover */
+    color: #2e3192;
+    border: 1px solid #2e3192;
+  }
+  
+  
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .nav_links {
+      display: none; /* Hide navigation links on small screens */
+    }
+  
+    .hand_burger {
+      display: block; /* Show hamburger menu */
+    }
+  
+    .navbar {
+      justify-content: space-between;
+    }
+  
+    .nav_btn {
+      display: none; /* Hide the button on small screens */
+    }
+  }
+  

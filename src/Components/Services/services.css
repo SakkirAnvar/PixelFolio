@@ -1,0 +1,102 @@
+.section1 {
+  /* background-color: #131212; */
+  background-color: #04040c;
+  color: #fff;
+  padding: 2rem;
+}
+
+.content {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spantext {
+  color: #2e3192;
+}
+
+.servicetag {
+  font-size: 1rem;
+  color: rgb(138, 136, 136);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.25rem;
+}
+
+.serviceslogan {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.servicebtn {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* White text */
+  background-color: #2e3192; /* Button color */
+  padding: 8px 20px; /* Padding for the button */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  cursor: pointer;
+}
+
+.servicebtn:hover {
+  background-color: #fff;
+  color: #2e3192;
+}
+
+.widget-container {
+  /* background-color: #131212; */
+  background-color: #04040c;
+  color: #fff;
+  padding: 2rem;
+}
+
+.widget-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.widget-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-item {
+  margin-bottom: 20px;
+}
+
+.item-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.item-description {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+/* Additional styles for FontAwesome icon */
+.icon {
+  background-color: #010116;
+  margin-right: 10px;
+  border: 1px solid #010116;
+  border-radius: 10px;
+  padding: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.icon:hover {
+  border: 1px solid #2e3192;
+  border-radius: 0;
+}
